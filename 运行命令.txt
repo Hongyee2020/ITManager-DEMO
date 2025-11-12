@@ -1,2 +1,16 @@
  # 启动脚本
  python manage.py runserver 0.0.0.0:8000
+
+# 根据代码生成db
+  # 1. 生成迁移文件
+python manage.py makemigrations
+
+2. 执行迁移
+python manage.py migrate
+
+3. 查看生成的 SQL
+python manage.py sqlmigrate cmdb 0001
+python manage.py sqlmigrate cmdb 0002
+
+4. 检查模型
+python manage.py check
