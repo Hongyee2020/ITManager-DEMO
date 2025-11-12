@@ -49,4 +49,4 @@ class Reactor3333(models.Model):
     class Meta:
         db_table = "Reactor3333"
         verbose_name = "反应釜"
-        verbose_name_plural = "反应釜列表"
+        verbose_name_plural = "反应釜333列表"
